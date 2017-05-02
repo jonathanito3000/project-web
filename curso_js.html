@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ejemplos onClick</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="author" href="humans.txt">
+    </head>
+    <body>
+        
+        <script> 
+        		function informeBoton(botonId, botonNombre, botonValor){
+        			var userMessage1 = "Id del Botn: " + botonId + "\n" ;
+        			var userMessage2 = "Valor del boton: " + botonValor;
+        			var userMessage3 = "Valor del botn: " + botonNombre + "\n";
+        			alert(userMessage3 + userMessage2 + userMessage1);
+        		}
+
+        		function areaCir(r){
+        			
+        			//this apunta el elemento dentro de un boton o una fucnion
+        			this.r = r;
+        			return 3.1416 * (r * r);
+        		}
+        		var r = r;
+        		var resultado = areaCir(4);
+        		document.write("El area del ciruclo de radio " + r + " es: " + resultado);
+        		//confir prompt (permite al usuario escribir)
+        </script>
+
+        <input type="button" id="id1" name="boton izq" onclick="informeBoton(this.id, this.name, this.value)" value="izquierdo">
+        <input type="button" onclick="cubo(3)" value="Adios">
+
+        <img src="images/logos/gadme.png" alt="imagen" onmouseover="this.src='images/logos/gadpe.png';" onmouseout="this.src = 'images/logos/flopec.png';">
+        <div id="div1">
+        	<p>....contenido</p>
+        </div>
+        <script>
+        	var miDivCont = document.getElementById("div1").innerHTML;
+        	alert(miDivCont);
+
+        </script>
+    </body>
+</html>
