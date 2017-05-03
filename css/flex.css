@@ -1,0 +1,46 @@
+/*
+propiedades para contenedor
+display: flex "es lo primeor que se usa";
+display-direction: row row-reverse column column-reverse "se usa para posecionar derecha o izquierda y poner en filas y columnas";
+display-wrap: wrap no-wrap "coloca los elementos debajo si no alcanza con no warp ocupa todo el anocho";
+flex-flow: row wrap "es como utilizar direction y wrap recibe los dos parametros";
+justify-content: flex-start | flex-end | center | space-around | space-between; "sirve para mover los elemtnos al inicio. final centrar etc"
+aling-items: flex-start | flex-end | center | strech "tiene que tener height auto" |baseline "siver para alinear y se adapta al ancho del contenerdor" ;
+aling-content:flex-start | flex-end | center | space-around | space-between "sirve para alinear grupo de elementos";
+ 
+propiedes de los elementos
+flex-basis: 150px "es lo mismo que width pero es dinamico";
+*/
+.contenedor{
+	
+	margin: 10px;
+	width: 500px;
+	height: 200px;
+	border: 10px solid #2C3E50;
+	padding: 10px;
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+
+}
+
+.elemento{
+	color: #fff;
+	margin: 5px;
+	background: #E67;
+	text-align: center;
+	flex-basis: 150px;
+	height: 50px;
+
+
+}
+.elemento1{
+	font-size: 30px;
+
+
+}
