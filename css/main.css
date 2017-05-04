@@ -60,26 +60,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto', sans-serif;
 }
 
-.bottom-down{
-	position: absolute;
-	left:0px; /*A la derecha deje un espacio de 0px*/
-right:350px; /*A la izquierda deje un espacio de 0px*/
-bottom:150px; /*Abajo deje un espacio de 0px*/
-height:0px; /*alto del div*/
-z-index:0;
-}
-
-.bottom-left{
-	position: absolute;
-	left:350px; /*A la derecha deje un espacio de 0px*/
-right:0px; /*A la izquierda deje un espacio de 0px*/
-bottom:150px; /*Abajo deje un espacio de 0px*/
-height:0px; /*alto del div*/
-z-index:0;
-}
-
-
-
 .slider-btn {
 	background-color:transparent;
 	color: #FFF;
@@ -313,6 +293,7 @@ z-index:0;
 	
 	
 }
+
 .single-services {
 	
 	padding:25px;
@@ -369,12 +350,6 @@ z-index:0;
 	background-repeat:no-repeat;
 }
 
-.contenedor{
-	background-size:cover;
-	height: 100%;
-	background-position: 50% 50%;
-	background-repeat:no-repeat;
-}
 
 #main-carousel .carousel-indicators { 
 	bottom:15px
@@ -412,6 +387,19 @@ z-index:0;
 #main-carousel .carousel-caption > div{
     vertical-align: middle;
     display: table-cell;
+}
+
+
+.bottom-down{
+	margin: 5px;
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	justify-content: space-around;
+	align-content: center;
+
+
+	
 }
 
 #main-carousel .carousel-inner h2 {
@@ -506,6 +494,9 @@ z-index:0;
 #main-carousel .carousel-right:hover{
 	color: #F6F6F6;
 }
+
+
+
 
 
 
