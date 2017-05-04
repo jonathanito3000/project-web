@@ -12,25 +12,36 @@ propiedes de los elementos
 flex-basis: 150px "es lo mismo que width pero es dinamico";
 */
 /*iconos de prov-esmeralsa*/
+#iconos-prov{
+	padding: 10px;
+}
 
 #iconos-prov .contenedor{
 	padding: 10px;
 	display: flex;
 	display: -webkit-flex;
 	display: -ms-flexbox;
-	flex-flow: row wrap;
+	flex-flow: row no-wrap;
 	justify-content: center;
 	align-content: center;
 }
 
 #iconos-prov .elementos{
-
-	border-radius: 3px solid;
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	border: solid;
+	border-radius: 100px;
 	margin: 10px;
 	text-align: center;
+	flex-basis: 50px;
 	
 
 
+}
+#iconos-prov img{
+	height: 75px;
+	width: 75px;
 }
 /*fin de icon*/
 .contenedor1{
