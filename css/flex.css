@@ -51,18 +51,25 @@ flex-basis: 150px "es lo mismo que width pero es dinamico";
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	flex-flow: row wrap;
-	justify-content: center;
-	align-content: center;
+	justify-content: flex-start;
+	align-content: flex-start;
 
 }
+#art-prov hr{
+
+ 	border: 0; width:1110px; height: 12px; box-shadow: inset 0 12px 12px -12px #30971F;
+ 	margin: 10px;
+
+ }
 
 #art-prov .elementos {
-	padding: 10px;
+	padding: 15px;
 }
  #art-prov .elementos h1 {
  	text-align: center;
 
  }
+  
 
 /*fin de icon*/
 .contenedor1{
